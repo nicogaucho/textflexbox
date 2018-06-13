@@ -2,4 +2,37 @@
 	text-align: center;
 	margin-bottom: 30px;
  font-family: sans-serif;
+ color: white;
+
+}
+
+.sottotitolo{
+	text-align: center;
+	font-size: 70px;
+    font-weight: normal;
+       color: #e0e6ea;
+       font-family: monospace;
+
+}
+.miolink{
+	color: #FFF;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #06406c;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.p{
+	margin-top: 60px;
+    text-align: center;
+}
+
+#main{ 
+	background-image:url(https://www.wylab.net/wp-content/uploads/2017/04/informatica.jpg);
+	height: 100px;
+
+
+
 }
