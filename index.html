@@ -1,6 +1,13 @@
 <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="miocss.css">
-<title>guideflexbox</title>
+<title>flexbox</title>
 <style>
   * {
     box-sizing: border-box; 
@@ -33,19 +40,25 @@
   }
   header, footer {
     background: #2bd4d4;
-    height: 20vh;
   }
   header, footer, article, nav, aside {
     ;
   }
 </style>
+</head>
 <body>
-  <header>
-    <h1 class="titolo">
-      guideflexbox
-    </h1>
-  </header>
+  
+  
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">Flexbox</a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button type="button" class="btn btn-outline-secondary">clicca qui!</button>
+  </form>
+</nav>
+ 
   <div id="main">
+
     <article>
       <h2 class="sottotitolo">how to work
       </h2>
@@ -55,7 +68,56 @@
       <p class="p">
         <a href="http://www.html.it/" class="miolink">html.it</a>
       </p>
+
     </article>
   </div>
-  <footer></footer>
-</body>
+  <div class="container">
+    <div>
+     <h3 class="description">
+      background
+     </h3>
+    </div>
+    <div>
+     <p class="object">
+      The Flexbox Layout (Flexible Box) module (currently a W3C Last Call Working Draft) aims at providing a more efficient way to lay out, align and distribute space among items in a container,  even when their size is unknown and/or dynamic (thus the word "flex").
+     </p>
+    </div>
+    
+    
+  </div>
+  <div class="containerdue">
+    <div>
+      <h4 class="descriptiondue">
+        basic&terminology
+      </h4>
+      </div>
+      <div class="objectdue">
+      <p>
+        Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as "flex container") whereas the others are meant to be set on the children (said "flex items").
+      </p>
+      </div>
+    
+  </div>
+
+  
+  <section class="darkclass">
+    <div class="containerdarkclass text-center">
+      <h5 class="testodarkclass">free download and start flexbox
+        
+      </h5> 
+
+      <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" class="button is-rounded" style="background-color: white; visibility: visible;border-radius: 23px;
+    padding: 20px;color: #060606;
+    /* font-stretch: ultra-condensed; */
+    font-size: xx-large; font-family: monospace;">download now!</a>
+      
+      
+    </div>
+    
+  </section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>

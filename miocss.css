@@ -3,6 +3,7 @@
 	margin-bottom: 30px;
  font-family: sans-serif;
  color: white;
+ margin-top: 50px;
 
 }
 
@@ -27,12 +28,114 @@
 .p{
 	margin-top: 60px;
     text-align: center;
+        padding-bottom: 30px;
 }
 
 #main{ 
 	background-image:url(https://www.wylab.net/wp-content/uploads/2017/04/informatica.jpg);
-	height: 100px;
-
+	height: auto;
 
 
 }
+
+.field{
+	margin-top: 20px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: sans-serif;
+    
+
+}
+
+.input{
+	height: 30px;
+}
+
+.fine{
+	height: 25vh;
+}
+
+.container{
+	display: flex;
+	background-color: white;
+    position: relative;
+    margin: 0;
+    
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    flex-direction: column;
+    padding-left: 300px;
+}
+
+.description{
+	display: block;
+	color: black;
+    font-size: 70px;
+    
+    font-family: 'Chelsea Market', Georgia, serif;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.object{
+	display: block;
+	color: black;
+	padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.containerdue{
+	display: flex;
+	background-image: url(http://www.onextrapixel.com/wp-content/uploads/2012/06/css-tips.jpg);
+    position: relative;
+    margin: 0;
+    
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    flex-direction: column;
+
+}
+.objectdue{
+	display: block;
+	color: black;
+	padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.descriptiondue{
+	display: block;
+	color: black;
+    font-size: 70px;
+    
+    font-family: 'Chelsea Market', Georgia, serif;
+    text-transform: lowercase;
+    text-align: center;
+
+}
+
+.darkclass{
+    background-color: #212529;}
+.containerdarkclass.text-center{
+
+
+text-align: center!important;
+padding: 200px;}
+
+.testodarkclass{
+    margin-bottom: 1.5rem!important;
+    font-family: monospace;
+    line-height: 1.2;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+
+}
+
